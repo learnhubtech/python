@@ -1,0 +1,17 @@
+questions=[" how many bones do we have in ear","what company was initially known as BLUE RIBBON SPORTS","what color is  micky mouse shoes"]
+options=[["a-one","b-seven","c-three"],["a-nike","b-adidas","c-puma"],["a-red","b-yellow","c-white"]]
+answer=["c","a","b"]
+score=0
+
+for i in range(len(questions)):
+    print(questions[i])
+    for o in options[i]:
+        print(o)
+for i in range(len(questions)):
+    user_answer = input("your answer: ")
+    if user_answer.lower()==answer[i]:
+        print("correct\n")
+        score+=1
+    else:
+        print("incorrect. the correct answer is", answer[i],"\n")
+print("your final score is:", score, "out of",len(questions))
