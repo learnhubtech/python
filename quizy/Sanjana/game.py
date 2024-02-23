@@ -18,4 +18,4 @@ elif choice==3:
     else:
         print("Dont try invalid option just give up")
 else:
-    print("Dont try invalid option just give up!")
+    print("Dont try invalid option just give upp!")
